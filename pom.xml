@@ -12,6 +12,14 @@
         <module>Singleton</module>
         <module>Strategy</module>
         <module>Proxy</module>
+        <module>AbstractFactory</module>
+        <module>Factory</module>
+        <module>Prototype</module>
+        <module>Builder</module>
+        <module>Adapter</module>
+        <module>Bridge</module>
+        <module>Composite</module>
+        <module>Decorator</module>
     </modules>
 
     <properties>
