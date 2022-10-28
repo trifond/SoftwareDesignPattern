@@ -7,7 +7,11 @@ package com.trifond;
  */
 
 import com.trifond.common.Duck;
+import com.trifond.common.FlyNoWay;
+import com.trifond.common.Squeak;
+import com.trifond.entity.MallardDuck;
 import com.trifond.entity.ModelDuck;
+import com.trifond.entity.RubberDuck;
 
 public class Application {
 
@@ -16,6 +20,18 @@ public class Application {
         model.display();
         model.performFly();
         model.performQuack();
+
+        Duck mallard = new MallardDuck();
+        mallard.display();
+        mallard.performFly();
+        mallard.performQuack();
+
+        Duck rubber = new RubberDuck();
+        rubber.display();
+        rubber.setFlyBehavior(new FlyNoWay());
+        rubber.performFly();
+        rubber.setQuackBehavior(new Squeak());
+        rubber.performQuack();
 
     }
 
