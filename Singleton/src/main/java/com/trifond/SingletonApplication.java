@@ -8,7 +8,7 @@ package com.trifond;
 
 import com.trifond.pattern.Singleton;
 
-public class Application {
+public class SingletonApplication {
 
     public static void main(String[] args) {
 

@@ -12,8 +12,10 @@ import com.trifond.common.Squeak;
 import com.trifond.entity.MallardDuck;
 import com.trifond.entity.ModelDuck;
 import com.trifond.entity.RubberDuck;
+import lombok.extern.slf4j.Slf4j;
 
-public class Application {
+@Slf4j
+public class StrategyApplication {
 
     public static void main(String[] args) {
         Duck model = new ModelDuck();
@@ -32,6 +34,8 @@ public class Application {
         rubber.performFly();
         rubber.setQuackBehavior(new Squeak());
         rubber.performQuack();
+
+        log.debug("Strategy module application running");
 
     }
 
