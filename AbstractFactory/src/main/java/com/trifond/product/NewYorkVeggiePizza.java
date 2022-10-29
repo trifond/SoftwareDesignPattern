@@ -1,0 +1,15 @@
+package com.trifond.product;
+
+/*
+ * @ Author: Felix
+ * @ Date: 2022/10/29 18:04
+ * @ Description:
+ */
+
+public class NewYorkVeggiePizza extends Pizza {
+
+    public NewYorkVeggiePizza() {
+        name = "NewYork style veggie pizza";
+    }
+
+}
