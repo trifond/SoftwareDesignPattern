@@ -1,4 +1,4 @@
-package com.trifond.entity;
+package com.trifond.animal;
 
 /*
  * @ Author: Felix
@@ -6,7 +6,7 @@ package com.trifond.entity;
  * @ Description:
  */
 
-import com.trifond.common.Duck;
+import com.trifond.animal.Duck;
 
 public class RubberDuck extends Duck {
 

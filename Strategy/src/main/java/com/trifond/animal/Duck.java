@@ -1,10 +1,13 @@
-package com.trifond.common;
+package com.trifond.animal;
 
 /*
  * @ Author: Felix
  * @ Date: 2022/10/28 12:32
  * @ Description:
  */
+
+import com.trifond.behavior.FlyBehavior;
+import com.trifond.behavior.QuackBehavior;
 
 public abstract class Duck {
 

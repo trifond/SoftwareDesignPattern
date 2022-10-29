@@ -1,4 +1,4 @@
-package com.trifond.entity;
+package com.trifond.observer;
 
 /*
  * @ Author: Felix
@@ -6,9 +6,8 @@ package com.trifond.entity;
  * @ Description:
  */
 
-import com.trifond.common.DisplayElement;
-import com.trifond.common.Observer;
-import com.trifond.common.Subject;
+import com.trifond.element.DisplayElement;
+import com.trifond.subject.Subject;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

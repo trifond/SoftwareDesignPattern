@@ -1,4 +1,4 @@
-package com.trifond.entity;
+package com.trifond.animal;
 
 /*
  * @ Author: Felix
@@ -6,9 +6,8 @@ package com.trifond.entity;
  * @ Description:
  */
 
-import com.trifond.common.Duck;
-import com.trifond.common.FlyWithWings;
-import com.trifond.common.Quack;
+import com.trifond.behavior.FlyWithWings;
+import com.trifond.behavior.Quack;
 
 public class MallardDuck extends Duck {
 

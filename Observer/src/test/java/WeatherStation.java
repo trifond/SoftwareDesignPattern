@@ -4,8 +4,8 @@
  * @ Description:
  */
 
-import com.trifond.entity.CurrentConditionsDisplay;
-import com.trifond.entity.WeatherData;
+import com.trifond.observer.CurrentConditionsDisplay;
+import com.trifond.subject.WeatherData;
 import org.junit.jupiter.api.Test;
 
 public class WeatherStation {

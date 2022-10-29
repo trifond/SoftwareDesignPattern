@@ -6,12 +6,12 @@ package com.trifond;
  * @ Description:
  */
 
-import com.trifond.common.Duck;
-import com.trifond.common.FlyNoWay;
-import com.trifond.common.Squeak;
-import com.trifond.entity.MallardDuck;
-import com.trifond.entity.ModelDuck;
-import com.trifond.entity.RubberDuck;
+import com.trifond.animal.Duck;
+import com.trifond.behavior.FlyNoWay;
+import com.trifond.behavior.Squeak;
+import com.trifond.animal.MallardDuck;
+import com.trifond.animal.ModelDuck;
+import com.trifond.animal.RubberDuck;
 import lombok.extern.slf4j.Slf4j;
 
 @Slf4j

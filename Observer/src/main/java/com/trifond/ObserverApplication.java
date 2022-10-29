@@ -6,9 +6,9 @@ package com.trifond;
  * @ Description:
  */
 
-import com.trifond.entity.CurrentConditionsDisplay;
-import com.trifond.entity.ForecastDisplay;
-import com.trifond.entity.WeatherData;
+import com.trifond.observer.CurrentConditionsDisplay;
+import com.trifond.observer.ForecastDisplay;
+import com.trifond.subject.WeatherData;
 
 public class ObserverApplication {
 

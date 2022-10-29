@@ -1,4 +1,4 @@
-package com.trifond.common;
+package com.trifond.behavior;
 
 /*
  * @ Author: Felix

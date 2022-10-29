@@ -1,4 +1,6 @@
-package com.trifond.common;
+package com.trifond.subject;
+
+import com.trifond.observer.Observer;
 
 public interface Subject {
 

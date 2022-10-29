@@ -1,4 +1,4 @@
-package com.trifond.entity;
+package com.trifond.subject;
 
 /*
  * @ Author: Felix
@@ -6,8 +6,7 @@ package com.trifond.entity;
  * @ Description:
  */
 
-import com.trifond.common.Observer;
-import com.trifond.common.Subject;
+import com.trifond.observer.Observer;
 
 import java.util.ArrayList;
 
