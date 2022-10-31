@@ -2,25 +2,28 @@ package com.trifond.product;
 
 /*
  * @ Author: Felix
- * @ Date: 2022/10/29 18:15
+ * @ Date: 2022/10/29 17:54
  * @ Description:
  */
 
-import com.trifond.ingredient.Cheese;
-import com.trifond.ingredient.Clams;
-import com.trifond.ingredient.Dough;
-import com.trifond.ingredient.Sauce;
-
+import java.util.ArrayList;
 
 public abstract class Pizza {
 
     String name;
-    Dough dough;
-    Sauce sauce;
-    Clams clams;
-    Cheese cheese;
+    String dough;
+    String sauce;
+    ArrayList toppings = new ArrayList();
 
-    public abstract void prepare();
+    public void prepare() {
+        System.out.println("Preparing " + name);
+        System.out.println("Tossing dough ...");
+        System.out.println("Adding sauce ...");
+        System.out.println("Adding toppings: ");
+        for (Object topping : toppings) {
+            System.out.println("  " + topping);
+        }
+    }
 
     public void bake() {
         System.out.println("Bake for 25 minutes at 350");
@@ -32,10 +35,6 @@ public abstract class Pizza {
 
     public void box() {
         System.out.println("Place pizza in official PizzaStore box");
-    }
-
-    public void setName(String name) {
-        this.name = name;
     }
 
     public String getName() {

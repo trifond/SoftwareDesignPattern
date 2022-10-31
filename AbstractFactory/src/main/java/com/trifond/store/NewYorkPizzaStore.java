@@ -6,22 +6,29 @@ package com.trifond.store;
  * @ Description:
  */
 
+import com.trifond.factory.IngredientFactory;
+import com.trifond.factory.NewYorkIngredientFactory;
 import com.trifond.product.*;
 
 public class NewYorkPizzaStore extends PizzaStore {
 
     @Override
-    Pizza createPizza(String type) {
+    protected Pizza createPizza(String type) {
         Pizza pizza = null;
+        IngredientFactory factory = new NewYorkIngredientFactory();
 
         if (type.equals("cheese")) {
-            pizza = new NewYorkCheesePizza();
+            pizza = new CheesePizza(factory);
+            pizza.setName("NewYork style cheese pizza");
         } else if (type.equals("pepperoni")) {
-            pizza = new NewYorkPepperoniPizza();
+            pizza = new PepperoniPizza(factory);
+            pizza.setName("NewYork style pepperoni pizza");
         } else if (type.equals("clam")) {
-            pizza = new NewYorkClamPizza();
+            pizza = new ClamPizza(factory);
+            pizza.setName("NewYork style clam pizza");
         } else if (type.equals("veggie")) {
-            pizza = new NewYorkVeggiePizza();
+            pizza = new VeggiePizza(factory);
+            pizza.setName("NewYork style veggie pizza");
         }
         return pizza;
     }
