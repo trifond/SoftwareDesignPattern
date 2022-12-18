@@ -23,6 +23,7 @@
         <module>Decorator</module>
         <module>Observer</module>
         <module>Command</module>
+        <module>Template</module>
     </modules>
 
     <properties>
