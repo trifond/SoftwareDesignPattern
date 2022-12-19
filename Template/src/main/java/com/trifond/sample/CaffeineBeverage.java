@@ -1,4 +1,4 @@
-package com.trifond;
+package com.trifond.sample;
 
 /*
  * @ Author: Felix
@@ -8,7 +8,7 @@ package com.trifond;
 
 public abstract class CaffeineBeverage {
 
-    final void prepareRecipe() {
+    final public void prepareRecipe() {
         boilWater();
         brew();
         pourInCup();

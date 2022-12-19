@@ -6,6 +6,9 @@ package com.trifond;
  * @ Description:
  */
 
+import com.trifond.sample.Coffee;
+import com.trifond.sample.Tea;
+
 public class Application {
 
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package com.trifond;
+package com.trifond.sample;
 
 /*
  * @ Author: Felix
