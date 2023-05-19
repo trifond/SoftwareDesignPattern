@@ -24,6 +24,7 @@
         <module>Observer</module>
         <module>Command</module>
         <module>Template</module>
+        <module>ChainOfResponsibility</module>
     </modules>
 
     <properties>
